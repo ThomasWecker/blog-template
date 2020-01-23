@@ -1,0 +1,36 @@
+@media (min-width: 576px) {
+    .container {
+      max-width: 540px;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .container {
+      max-width: 720px; 
+    }
+    .column-4 {
+        flex: 0 0 33.33333%;
+        max-width: 33.33333%;
+    } 
+    .column-8{
+        -ms-flex: 0 0 66.666667%;
+        flex: 0 0 66.666667%;
+        max-width: 66.666667%;
+      }
+  }
+  
+  @media (min-width: 992px) {
+    .container {
+      max-width: 960px;
+    }
+    .column-6 {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+  }
+  
+  @media (min-width: 1200px) {
+    .container {
+      max-width: 1140px;
+    }
+  }
